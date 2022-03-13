@@ -56,15 +56,47 @@
 		6C582F6F27D7627600CCA8DA /* UIKitApp */ = {
 			isa = PBXGroup;
 			children = (
-				6C582F7027D7627600CCA8DA /* AppDelegate.swift */,
-				6C582F7227D7627600CCA8DA /* SceneDelegate.swift */,
-				6C582F7427D7627600CCA8DA /* ViewController.swift */,
-				6C582F7627D7627600CCA8DA /* Main.storyboard */,
-				6C582F7927D7627800CCA8DA /* Assets.xcassets */,
-				6C582F7B27D7627800CCA8DA /* LaunchScreen.storyboard */,
-				6C582F7E27D7627800CCA8DA /* Info.plist */,
+				6CA3431F27DE07D600A06801 /* App */,
+				6CA3432127DE07EC00A06801 /* Storyboards */,
+				6CA3432027DE07DE00A06801 /* ViewControllers */,
+				6CA3432227DE07FE00A06801 /* Resources */,
 			);
 			path = UIKitApp;
+			sourceTree = "<group>";
+		};
+		6CA3431F27DE07D600A06801 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6C582F7027D7627600CCA8DA /* AppDelegate.swift */,
+				6C582F7227D7627600CCA8DA /* SceneDelegate.swift */,
+				6C582F7E27D7627800CCA8DA /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6CA3432027DE07DE00A06801 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C582F7427D7627600CCA8DA /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6CA3432127DE07EC00A06801 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				6C582F7B27D7627800CCA8DA /* LaunchScreen.storyboard */,
+				6C582F7627D7627600CCA8DA /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6CA3432227DE07FE00A06801 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C582F7927D7627800CCA8DA /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,22 +323,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIKitApp/Info.plist;
+				INFOPLIST_FILE = UIKitApp/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UIKit;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.UIKitApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,22 +351,22 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MAMAND5R9P;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UIKitApp/Info.plist;
+				INFOPLIST_FILE = UIKitApp/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UIKit;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = AlexeyRadomskiy.UIKitApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
